@@ -1,4 +1,5 @@
-# 🐍 100 Days of Python — Code With Harry
+# 🐍 100 Days of Python 
+---
 
 Welcome to my Python learning journey! I am actively completing the **100 Days of Code (Python)** course by Code With Harry, building strong core programming foundations and solving practical exercises along the way.
 
