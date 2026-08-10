@@ -44,3 +44,11 @@ def fun(s):
       print("okey")
     
 print(fun(int(input("give a number"))))
+
+a=int(input("Enter a number: "))
+if (a<10 or a>20):
+    raise ValueError(" Nope Not OK") # this is use to stop the code 
+
+
+# So here what is happening is first input is given then the input is proceed to function and function is returning a value
+# but if the code breaks inside function it returns so we use finally() to execute to necceary code 
