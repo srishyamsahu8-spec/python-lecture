@@ -82,3 +82,28 @@ print(type(tup),tup)
 
 tup2=(12,32,12)
 print((tup+tup2))
+
+
+#                       SETS
+
+s1={1,2,3,"hi",True}
+s2=set() # this signifies or we can write this to mention empty set
+s3=() #this says that this a dictionar function
+
+s20={21,21,12}
+
+print(s1.union(s20))# this will add 2 sets
+# .intersection() means like elements from 2 sets --------->  s1.intersection(s20) 
+# .symmetric_intersection() this function is used to add 2 sets and remove the common elements of the set------> s1.symmetric_intersection(s20)
+# .diffrence() this function is like ------->s1.diffrence(s20) 'Jo values s1 me he but s20 me nahi'
+
+# .isdisjoint() this is used to see that  the set has element are not same to the asked set
+# .superset() is opposite of .isdisjoint() it sees the same element or not
+# .add() this adds an element to the set 
+# .remove() this is used to remove any element from set 
+#           |
+# if u ask to remove the element not present in the set then it will give error(runtime error) so we use --------->.discard()
+
+# .pop() is used to pick random element from set 
+# .del() is used to del the entire set 
+# .clear() is used to clear every the elements from set [empty set]

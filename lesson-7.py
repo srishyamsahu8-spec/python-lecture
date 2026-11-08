@@ -7,6 +7,9 @@ print(a.format(name,country))
 print(f"my name is {name} and i am from {country}")
 #The starting of string is f this is called as f string
 
+print(f"the answer is:{((int(input("Enter a number:")))+(int(input("Enter another number:"))))}") 
+# Best to understand
+
 #         DOC-Strings
 def main(a):
     ''' here we can see that the number given is returning the squre value'''
@@ -28,3 +31,8 @@ nth=10
 
 for i in range(nth):
     print(fibbo(i))
+
+
+#recurstion mean calling the function again and again to get the result (somewhat as loop)
+# Fibonacci series mean -  0,1,1,2,3,,5,8,13,21
+
